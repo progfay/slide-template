@@ -1,23 +1,46 @@
 ---
 title: Slide Template
+titleTemplate: "%s | progfay"
+author: progfay
 info: |
   ## progfay's Slide Template
 
   Powered by Slidev
   Learn more at [Sli.dev](https://sli.dev)
 duration: 35min
-
+transition: null
 theme: ./
 class: text-center
-mdc: true # enable MDC Syntax: https://sli.dev/features/mdc
+mdc: true
+htmlAttrs:
+  lang: ja
+favicon: "https://github.com/progfay.png"
+colorSchema: dark
+
+# # ref. https://sli.dev/features/seo-meta#configuration
+# seoMeta:
+#   ogImage: ./path/to/og-image.png # (or auto)
+#   ogUrl: https://progfay.github.io/${repo_name}/
+#   ogDescription: TBD
+#   twitterCard: summary_large_image
+#   twitterTitle: (same as title)
+#   twitterDescription: (same as ogDescription)
+#   twitterImage: same as ogImage
+#   twitterSite: progfay
+#   twitterUrl: https://progfay.github.io/${repo_name}/
 ---
 
 # progfay's Slide Template
 
-Powered by Slidev
+<p style="color: #A5A5A1">
+  YYYY.MM.DD |
+  <span style="color: #A5A5A1">OPPORTUNITY</span> |
+  <a href="https://x.com/progfay" target="_blank" rel="noreferrer" style="color: #A5A5A1">@progfay</a>
+</p>
 
 ---
 layout: self-intro
+preload: true
 ---
 
 - Web Frontend Engineer
