@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
-  ]
+  "enabledManagers": ["npm", "nodenv", "github-actions"],
+  "extends": ["config:base", "helpers:pinGitHubActionDigests"],
+  "minimumReleaseAge": "7 days"
 }
