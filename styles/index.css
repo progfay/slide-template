@@ -2,11 +2,11 @@
 @import url("./typography.css");
 
 :root {
-  --progfay-blue: #80B4EF;
-  --progfay-red: #DC5E5C;
-  --progfay-black: #14161A;
-  --progfay-white: #F2F9FC;
-  --progfay-gray: #A5A5A1;
+  --progfay-blue: #80b4ef;
+  --progfay-red: #dc5e5c;
+  --progfay-black: #14161a;
+  --progfay-white: #f2f9fc;
+  --progfay-gray: #a5a5a1;
 
   --progfay-background: var(--progfay-black);
   --progfay-foreground: var(--progfay-white);
@@ -17,11 +17,11 @@
 }
 
 .light:root {
-  --progfay-blue: #1577D8;
-  --progfay-red: #EE0012;
-  --progfay-black: #05061D;
-  --progfay-white: #FFFFFF;
-  --progfay-gray: #9492B0;
+  --progfay-blue: #1577d8;
+  --progfay-red: #ee0012;
+  --progfay-black: #05061d;
+  --progfay-white: #ffffff;
+  --progfay-gray: #9492b0;
 
   --progfay-background: var(--progfay-white);
   --progfay-foreground: var(--progfay-black);
